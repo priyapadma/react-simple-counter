@@ -1,0 +1,57 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #111111;
+    line-height: 1.3;
+  }
+.cnt-ctr {
+    display: flex;
+    width: 80%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.cnt-ctr .cnt-hdr h1 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+.cnt-ctr .cnt-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cnt-ctr .cnt-btns > * {
+    width: 70px;
+    height: 60px;
+    color: #ad5754;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.cnt-ctr .cnt-btns button {
+    border: 2px solid #e2c3c2;
+    background-color: #ffffff;
+}
+.cnt-ctr .cnt-btns button:first-child {
+    border-radius: 8px 0 0 8px;
+}
+.cnt-ctr .cnt-btns button:last-child {
+    border-radius: 0 8px 8px 0;
+}
+.cnt-ctr .cnt-btns span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7eae9;
+    border-top: 2px solid #e2c3c2;
+    border-bottom: 2px solid #e2c3c2;
+    height: 56px;
+}
+.cnt-ctr .cnt-btns button:hover, .cnt-ctr .cnt-btns button:active, .cnt-ctr .cnt-btns button:focus {
+    cursor: pointer;
+    background-color: #a54946;
+    color: #ffffff;
+    border-color: #a54946;
+}
